@@ -1,0 +1,16 @@
+PODS:
+  - AHComponents (0.1.0)
+
+DEPENDENCIES:
+  - AHComponents (from `../`)
+
+EXTERNAL SOURCES:
+  AHComponents:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AHComponents: e52b7cc897c32abab7dbc0398230f678d50ffe77
+
+PODFILE CHECKSUM: 9e89dd5f33bf7f6ea4244f81af7e144c595b7bf6
+
+COCOAPODS: 1.12.0

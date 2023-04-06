@@ -1,0 +1,22 @@
+{
+  "name": "AHComponents",
+  "version": "0.1.0",
+  "summary": "A short description of AHComponents.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/章肿鱼/AHComponents",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "章肿鱼": "zhangzongyu00@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/章肿鱼/AHComponents.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "AHComponents/Classes/**/*"
+}
