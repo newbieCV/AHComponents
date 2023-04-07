@@ -8,13 +8,16 @@
 import Foundation
 import UIKit
 
-struct kScreen {
-    static let width = UIScreen.main.bounds.width
-    static let height = UIScreen.main.bounds.height
-}
-
-class AHTools {
-    func test() {
-        print("test success!")
+public class AHTools {
+    // 裁剪图片到指定大小
+    public class func tailorImage(image: UIImage?, newSize: CGSize) -> UIImage {
+        guard let originImg = image else {
+            return UIImage()
+        }
+        UIGraphicsBeginImageContext(newSize)
+        originImg.draw(in: CGRect(origin: CGPoint.zero, size: newSize))
+        let newImg = UIGraphicsGetImageFromCurrentImageContext() ?? originImg
+        UIGraphicsEndImageContext()
+        return newImg
     }
 }
