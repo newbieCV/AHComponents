@@ -1,19 +1,14 @@
 //
-//  AHTools.swift
+//  AHImageTools.swift
 //  AHComponents
 //
-//  Created by 张宗宇 on 2023/4/7.
+//  Created by ByteDance on 2023/4/8.
 //
 
 import Foundation
 import UIKit
 
-public struct kScreen {
-    public static let width = UIScreen.main.bounds.width
-    public static let height = UIScreen.main.bounds.height
-}
-
-public class AHTools {
+public class AHImageTools: UIImage {
     // 裁剪图片到指定大小
     public class func tailorImage(image: UIImage?, newSize: CGSize) -> UIImage {
         guard let originImg = image else {
@@ -24,5 +19,10 @@ public class AHTools {
         let newImg = UIGraphicsGetImageFromCurrentImageContext() ?? originImg
         UIGraphicsEndImageContext()
         return newImg
+    }
+    // 寻找podspec中图片资源
+    class func readImage(imageName: String) -> UIImage {
+        let bundle = AHTools.findSourceBundle()
+        return UIImage(named: imageName, in: bundle, compatibleWith: nil) ?? UIImage()
     }
 }
