@@ -8,6 +8,11 @@
 import Foundation
 import UIKit
 
+public struct kScreen {
+    public static let width = UIScreen.main.bounds.width
+    public static let height = UIScreen.main.bounds.height
+}
+
 public class AHTools {
     // 裁剪图片到指定大小
     public class func tailorImage(image: UIImage?, newSize: CGSize) -> UIImage {
