@@ -7,27 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11A0F35C2FD84F829822477D4AF52D3C /* AHComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE49BA67230D18633AEDCB5CA5D9284D /* AHComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		131FFA3BC47540F16B84979C2EBBEBF5 /* AHTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00618686DBA16493D4C149253881BC7A /* AHTools.swift */; };
 		1890B208966A22454ACF4D86C731C684 /* Pods-AHComponents_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 249E4BC3A4938083E533AAB3531AC031 /* Pods-AHComponents_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22FF79D9BD2BDA1216F2E213803F9C20 /* AHComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0EA7D7A05E45D17C2EF895026A19AC /* AHComponents-dummy.m */; };
+		27335B5F82572E7903454F2936672E5F /* AHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8281BD53FB9CD09EEFF4C67FDB1C8769 /* AHViewController.swift */; };
 		2B3B795D3676899226C7E3E6C6EF7AEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		356946E6A99B923A2FE066123F9EA78A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3719E7085E00593D9925E223872186E4 /* AHComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEE51DF0FCECDDC2E93560261274CF /* AHComponents-dummy.m */; };
+		4B09D45AA0DF162D60DB17EE79138674 /* AHImageTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B95E81EE17F038EEC58F8264E92B67 /* AHImageTools.swift */; };
 		5CC210A37D617AC313CB07B7884565CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5F7C3E73DDEBFE0AEE089A0AEA1BA9C1 /* Pods-AHComponents_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CE089E0079FD63DA7F7E6B8309961A /* Pods-AHComponents_Tests-dummy.m */; };
 		648990A5818AB05DC39B9DE02CF64695 /* Pods-AHComponents_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E884502C7978A16EE308A81B8BA7B16D /* Pods-AHComponents_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C44AE7088A3AF8102EEE04A41F0CFCB8 /* AHTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2C1EA4E8B6C725462A6E63A645C087 /* AHTools.swift */; };
+		71BE7315846079A647572D30E273EC1C /* AHColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF7C616DC62A8AC0179986F66D0108 /* AHColorTools.swift */; };
+		78A5BCACA6C31A8A5D0A3AF738B690B4 /* AHComponents.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4191D2362D7065CE759FFA9BDD2297FB /* AHComponents.xcassets */; };
+		B8907D18D746A9E818F86519B36BB0DF /* AHComponents-AHComponents in Resources */ = {isa = PBXBuildFile; fileRef = 3151B628612B6624418F7F903F133664 /* AHComponents-AHComponents */; };
+		C1FE01E8F12239C8214B1EF6CFAA9264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F1252FB731C6686CB53746B9AD8E2486 /* AHBottomPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709115A63656485FFF9637A14C1DAF51 /* AHBottomPopView.swift */; };
+		F793A09529381D666F40853487297EC0 /* AHComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4DB4DDEA59615F18B72B0331ED3C59A /* AHComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCD8373ACF43B9579D87A61DA56966E9 /* Pods-AHComponents_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD2DA15683783D9F98CD98DFA59DE7 /* Pods-AHComponents_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4BC53D25B88B0C07D667D4E14A434F35 /* PBXContainerItemProxy */ = {
+		5E102C6EE615A66A6A245EF47C110C56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BADA0FC84F35E56514B16A0BF0A01A4;
+			remoteInfo = "AHComponents-AHComponents";
+		};
+		656464908933BA0861FF17E3DAFC285E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 81A8A0F9C343F180D73888B2A7607D91;
 			remoteInfo = "Pods-AHComponents_Example";
 		};
-		4E22585248BF86916C2A85F4BE7AF9B2 /* PBXContainerItemProxy */ = {
+		71F7523D42938A1E882CC1CF93D30987 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,39 +50,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00618686DBA16493D4C149253881BC7A /* AHTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHTools.swift; sourceTree = "<group>"; };
 		03F0A296C85F8EA1583EF094D15F07BC /* Pods-AHComponents_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHComponents_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		166FF116206C29D9E25A66D1B8D57C37 /* ResourceBundle-AHComponents-AHComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AHComponents-AHComponents-Info.plist"; sourceTree = "<group>"; };
 		1795174E7B817C5422BB2E1BC9F7CBB4 /* AHComponents */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AHComponents; path = AHComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8B966474A87AF59E41CE51F947DAA1 /* Pods-AHComponents_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHComponents_Example.release.xcconfig"; sourceTree = "<group>"; };
 		21EF37F66B1CD45A477069BD4ECBC5F7 /* Pods-AHComponents_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AHComponents_Tests.modulemap"; sourceTree = "<group>"; };
 		223D47B5270B8FDD1DE6C3DA6507A3C1 /* Pods-AHComponents_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AHComponents_Example"; path = Pods_AHComponents_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		23224EDCB47CDE95B3A579A58F6C1702 /* AHComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHComponents.debug.xcconfig; sourceTree = "<group>"; };
 		23AD2DA15683783D9F98CD98DFA59DE7 /* Pods-AHComponents_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHComponents_Example-dummy.m"; sourceTree = "<group>"; };
 		249E4BC3A4938083E533AAB3531AC031 /* Pods-AHComponents_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHComponents_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2D0EA7D7A05E45D17C2EF895026A19AC /* AHComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AHComponents-dummy.m"; sourceTree = "<group>"; };
+		25E097A3C4409D831291CC3462751317 /* AHComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHComponents.debug.xcconfig; sourceTree = "<group>"; };
 		2E4A420FCFE86934985E9B4805ABA8BB /* Pods-AHComponents_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHComponents_Tests-Info.plist"; sourceTree = "<group>"; };
+		3151B628612B6624418F7F903F133664 /* AHComponents-AHComponents */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "AHComponents-AHComponents"; path = AHComponents.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD317386452F17DA2A343C666A11357 /* Pods-AHComponents_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHComponents_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5EF72C794DA298A59CBE66E79070F773 /* AHComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AHComponents.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3EFEE51DF0FCECDDC2E93560261274CF /* AHComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AHComponents-dummy.m"; sourceTree = "<group>"; };
+		4191D2362D7065CE759FFA9BDD2297FB /* AHComponents.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = AHComponents.xcassets; path = AHComponents/Assets/AHComponents.xcassets; sourceTree = "<group>"; };
+		4210B0C83C01E9269BC763A5267A0C2E /* AHComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHComponents-prefix.pch"; sourceTree = "<group>"; };
 		67DC4552D2A854A707276AF116857DE1 /* Pods-AHComponents_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHComponents_Example-Info.plist"; sourceTree = "<group>"; };
 		67EFFC00999F347230B697057B4A2D1B /* Pods-AHComponents_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHComponents_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6AD2283C014949407B9E659C35801C57 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		709115A63656485FFF9637A14C1DAF51 /* AHBottomPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHBottomPopView.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		730532512D3798BB90FF84D4A01EBADE /* AHComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AHComponents.modulemap; sourceTree = "<group>"; };
-		7F2C1EA4E8B6C725462A6E63A645C087 /* AHTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AHTools.swift; path = AHComponents/Classes/AHTools.swift; sourceTree = "<group>"; };
-		8611BC09D1CC0EF3D70EBA10CDA005CC /* AHComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHComponents.release.xcconfig; sourceTree = "<group>"; };
+		806F0061F44F4258E96ACCD107213D39 /* AHComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AHComponents-Info.plist"; sourceTree = "<group>"; };
+		8281BD53FB9CD09EEFF4C67FDB1C8769 /* AHViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHViewController.swift; sourceTree = "<group>"; };
+		8D0A68EA9B2FB463D920AF3D70FF7BE5 /* AHComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AHComponents.modulemap; sourceTree = "<group>"; };
+		8DAF7C616DC62A8AC0179986F66D0108 /* AHColorTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHColorTools.swift; sourceTree = "<group>"; };
 		8EB8823288E4980714187CA1E58CB6AF /* Pods-AHComponents_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHComponents_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		982E45A8993CD9D0CC63AF6698C579C1 /* AHComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AHComponents-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1191C545D4F1CB3ED3719A3A4CCF37E /* Pods-AHComponents_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHComponents_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A14B66940D42E16D49E5EDB322B3C257 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A4CE089E0079FD63DA7F7E6B8309961A /* Pods-AHComponents_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHComponents_Tests-dummy.m"; sourceTree = "<group>"; };
-		B139CEC89CC94643FEA394791A2DCE69 /* AHComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHComponents-prefix.pch"; sourceTree = "<group>"; };
+		A5DF2BF7FECC035E9853CF68EBBBFD4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B4EBB3DD4049BCEC4DE42C76B30E4DCB /* Pods-AHComponents_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHComponents_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D4CD0376EC17043B71CD1D8E1E0C8386 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BAEB098A0ABA5EA3F6438764F914A38B /* AHComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHComponents.release.xcconfig; sourceTree = "<group>"; };
+		C2FCC97310D6685FFCA7E740A4AF238D /* AHComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AHComponents.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C4DB4DDEA59615F18B72B0331ED3C59A /* AHComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHComponents-umbrella.h"; sourceTree = "<group>"; };
 		D73DEA498E417735D41763CF600D759A /* Pods-AHComponents_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AHComponents_Tests"; path = Pods_AHComponents_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D972B1CB93A8512077C1E8214AE6EF /* Pods-AHComponents_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHComponents_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DAC23694126DA0E77B915B56C1F6291D /* Pods-AHComponents_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AHComponents_Example.modulemap"; sourceTree = "<group>"; };
 		E85AD8F23FB3AC5D9D68202A9305CE9A /* Pods-AHComponents_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHComponents_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E884502C7978A16EE308A81B8BA7B16D /* Pods-AHComponents_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHComponents_Example-umbrella.h"; sourceTree = "<group>"; };
-		FE49BA67230D18633AEDCB5CA5D9284D /* AHComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHComponents-umbrella.h"; sourceTree = "<group>"; };
+		E8B95E81EE17F038EEC58F8264E92B67 /* AHImageTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHImageTools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +101,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		871D73BFD1B36CF64CD558A9E676C34A /* Frameworks */ = {
+		971D6D48C355B5885187F605C3E60794 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				356946E6A99B923A2FE066123F9EA78A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3054A7AFEA5A4C32FBC68224DCF545F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FE01E8F12239C8214B1EF6CFAA9264 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,19 +127,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4532E6B7EBB50D64C5A2177EE0330AA6 /* Support Files */ = {
+		16FD52A59595F51E60EB35AF0ED230CE /* AHComponents */ = {
 			isa = PBXGroup;
 			children = (
-				730532512D3798BB90FF84D4A01EBADE /* AHComponents.modulemap */,
-				2D0EA7D7A05E45D17C2EF895026A19AC /* AHComponents-dummy.m */,
-				982E45A8993CD9D0CC63AF6698C579C1 /* AHComponents-Info.plist */,
-				B139CEC89CC94643FEA394791A2DCE69 /* AHComponents-prefix.pch */,
-				FE49BA67230D18633AEDCB5CA5D9284D /* AHComponents-umbrella.h */,
-				23224EDCB47CDE95B3A579A58F6C1702 /* AHComponents.debug.xcconfig */,
-				8611BC09D1CC0EF3D70EBA10CDA005CC /* AHComponents.release.xcconfig */,
+				4191D2362D7065CE759FFA9BDD2297FB /* AHComponents.xcassets */,
+				292A83C05546B94CB6AA7FCA5581AB31 /* Base */,
+				8C437E371D38CB23A25B9E7C36FAF5BF /* Common */,
+				26998D1E6D282B10E3E29322692E5664 /* Pod */,
+				B7AE9E78003E79618882F9F9533F0347 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AHComponents";
+			name = AHComponents;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		26998D1E6D282B10E3E29322692E5664 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C2FCC97310D6685FFCA7E740A4AF238D /* AHComponents.podspec */,
+				A5DF2BF7FECC035E9853CF68EBBBFD4B /* LICENSE */,
+				6AD2283C014949407B9E659C35801C57 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		292A83C05546B94CB6AA7FCA5581AB31 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8DAF7C616DC62A8AC0179986F66D0108 /* AHColorTools.swift */,
+				E8B95E81EE17F038EEC58F8264E92B67 /* AHImageTools.swift */,
+				00618686DBA16493D4C149253881BC7A /* AHTools.swift */,
+			);
+			name = Base;
+			path = AHComponents/Classes/Base;
 			sourceTree = "<group>";
 		};
 		4F11492FB212C4966C76A03BFEEA9A9B /* Pods-AHComponents_Tests */ = {
@@ -131,17 +177,6 @@
 			path = "Target Support Files/Pods-AHComponents_Tests";
 			sourceTree = "<group>";
 		};
-		577A437AE0FA81419309772E6E1E4371 /* AHComponents */ = {
-			isa = PBXGroup;
-			children = (
-				7F2C1EA4E8B6C725462A6E63A645C087 /* AHTools.swift */,
-				5F0DBC45EFF2188C8B59B12A1C4A463A /* Pod */,
-				4532E6B7EBB50D64C5A2177EE0330AA6 /* Support Files */,
-			);
-			name = AHComponents;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,22 +185,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5F0DBC45EFF2188C8B59B12A1C4A463A /* Pod */ = {
+		8C437E371D38CB23A25B9E7C36FAF5BF /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				5EF72C794DA298A59CBE66E79070F773 /* AHComponents.podspec */,
-				D4CD0376EC17043B71CD1D8E1E0C8386 /* LICENSE */,
-				A14B66940D42E16D49E5EDB322B3C257 /* README.md */,
+				709115A63656485FFF9637A14C1DAF51 /* AHBottomPopView.swift */,
+				8281BD53FB9CD09EEFF4C67FDB1C8769 /* AHViewController.swift */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		839CDB056EA42751D239DAA32AA56D5A /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				577A437AE0FA81419309772E6E1E4371 /* AHComponents */,
-			);
-			name = "Development Pods";
+			name = Common;
+			path = AHComponents/Classes/Common;
 			sourceTree = "<group>";
 		};
 		9361168AB41DD0B9E3B74A8117A5CF8D /* Pods-AHComponents_Example */ = {
@@ -185,6 +212,33 @@
 			path = "Target Support Files/Pods-AHComponents_Example";
 			sourceTree = "<group>";
 		};
+		A5B665A759AE0BEACAA5C9738B8EC550 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1795174E7B817C5422BB2E1BC9F7CBB4 /* AHComponents */,
+				3151B628612B6624418F7F903F133664 /* AHComponents-AHComponents */,
+				223D47B5270B8FDD1DE6C3DA6507A3C1 /* Pods-AHComponents_Example */,
+				D73DEA498E417735D41763CF600D759A /* Pods-AHComponents_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7AE9E78003E79618882F9F9533F0347 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D0A68EA9B2FB463D920AF3D70FF7BE5 /* AHComponents.modulemap */,
+				3EFEE51DF0FCECDDC2E93560261274CF /* AHComponents-dummy.m */,
+				806F0061F44F4258E96ACCD107213D39 /* AHComponents-Info.plist */,
+				4210B0C83C01E9269BC763A5267A0C2E /* AHComponents-prefix.pch */,
+				C4DB4DDEA59615F18B72B0331ED3C59A /* AHComponents-umbrella.h */,
+				25E097A3C4409D831291CC3462751317 /* AHComponents.debug.xcconfig */,
+				BAEB098A0ABA5EA3F6438764F914A38B /* AHComponents.release.xcconfig */,
+				166FF116206C29D9E25A66D1B8D57C37 /* ResourceBundle-AHComponents-AHComponents-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AHComponents";
+			sourceTree = "<group>";
+		};
 		BE25D9D5286260AF750515ACBB058E61 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,9 +252,9 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				839CDB056EA42751D239DAA32AA56D5A /* Development Pods */,
+				EC2697896D400BF2B67C224FCE0FB3C3 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				DAF1A2E11BB535615DC9DA4EE3AB08AB /* Products */,
+				A5B665A759AE0BEACAA5C9738B8EC550 /* Products */,
 				BE25D9D5286260AF750515ACBB058E61 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -213,14 +267,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DAF1A2E11BB535615DC9DA4EE3AB08AB /* Products */ = {
+		EC2697896D400BF2B67C224FCE0FB3C3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1795174E7B817C5422BB2E1BC9F7CBB4 /* AHComponents */,
-				223D47B5270B8FDD1DE6C3DA6507A3C1 /* Pods-AHComponents_Example */,
-				D73DEA498E417735D41763CF600D759A /* Pods-AHComponents_Tests */,
+				16FD52A59595F51E60EB35AF0ED230CE /* AHComponents */,
 			);
-			name = Products;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,14 +286,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F5FC3F79274E131B077BC53316D3583 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11A0F35C2FD84F829822477D4AF52D3C /* AHComponents-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8576BADD2F128D6FFECC88B5232A3539 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -250,9 +294,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C4568780971A6AD9F9A775E427050DDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F793A09529381D666F40853487297EC0 /* AHComponents-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0BADA0FC84F35E56514B16A0BF0A01A4 /* AHComponents-AHComponents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 713FF78B001B5D74EA2895E89CEE8953 /* Build configuration list for PBXNativeTarget "AHComponents-AHComponents" */;
+			buildPhases = (
+				6968EBFA7FD18D698F8E1DBC4ED0EB04 /* Sources */,
+				971D6D48C355B5885187F605C3E60794 /* Frameworks */,
+				C6E4CCB599166D8CF2091418E22B00F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AHComponents-AHComponents";
+			productName = AHComponents;
+			productReference = 3151B628612B6624418F7F903F133664 /* AHComponents-AHComponents */;
+			productType = "com.apple.product-type.bundle";
+		};
 		1DF269F3220329293F0FCE899C01FC63 /* Pods-AHComponents_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16C0F29244A6BD00DFABAEB5CB1BA9C8 /* Build configuration list for PBXNativeTarget "Pods-AHComponents_Tests" */;
@@ -265,7 +334,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				744D5B8E68D7D4BD6BB932A48DB92FDC /* PBXTargetDependency */,
+				F0270A51B161FC5306F3EF7E2857E115 /* PBXTargetDependency */,
 			);
 			name = "Pods-AHComponents_Tests";
 			productName = Pods_AHComponents_Tests;
@@ -284,7 +353,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6062E6DF210A6E71B6AECDA2DC7F3297 /* PBXTargetDependency */,
+				3DCFE1B4895D1738483B5F2889EE4FBB /* PBXTargetDependency */,
 			);
 			name = "Pods-AHComponents_Example";
 			productName = Pods_AHComponents_Example;
@@ -293,16 +362,17 @@
 		};
 		D293DC6CED057EF8123E8455F72BD55A /* AHComponents */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 453AE0DF123FDE13713BF31CF91807DB /* Build configuration list for PBXNativeTarget "AHComponents" */;
+			buildConfigurationList = 91460C21BBB00BEAAEFD98B02450F724 /* Build configuration list for PBXNativeTarget "AHComponents" */;
 			buildPhases = (
-				5F5FC3F79274E131B077BC53316D3583 /* Headers */,
-				CD268CA282C1D081280BD989FA16ED50 /* Sources */,
-				871D73BFD1B36CF64CD558A9E676C34A /* Frameworks */,
-				B5E43D5187F7EB4C5B13C0F5461C971A /* Resources */,
+				C4568780971A6AD9F9A775E427050DDB /* Headers */,
+				D1121E44E48CAC80EBAF200748FEAF13 /* Sources */,
+				C3054A7AFEA5A4C32FBC68224DCF545F /* Frameworks */,
+				DCC24B067012100AFBB270999CD70DB0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F978F335E560B5D3ECBF6458B693EB29 /* PBXTargetDependency */,
 			);
 			name = AHComponents;
 			productName = AHComponents;
@@ -327,11 +397,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = DAF1A2E11BB535615DC9DA4EE3AB08AB /* Products */;
+			productRefGroup = A5B665A759AE0BEACAA5C9738B8EC550 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D293DC6CED057EF8123E8455F72BD55A /* AHComponents */,
+				0BADA0FC84F35E56514B16A0BF0A01A4 /* AHComponents-AHComponents */,
 				81A8A0F9C343F180D73888B2A7607D91 /* Pods-AHComponents_Example */,
 				1DF269F3220329293F0FCE899C01FC63 /* Pods-AHComponents_Tests */,
 			);
@@ -346,10 +417,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5E43D5187F7EB4C5B13C0F5461C971A /* Resources */ = {
+		C6E4CCB599166D8CF2091418E22B00F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78A5BCACA6C31A8A5D0A3AF738B690B4 /* AHComponents.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC24B067012100AFBB270999CD70DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8907D18D746A9E818F86519B36BB0DF /* AHComponents-AHComponents in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +443,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6968EBFA7FD18D698F8E1DBC4ED0EB04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B64A1D0005740F687A92575E9C9DF585 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,12 +458,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD268CA282C1D081280BD989FA16ED50 /* Sources */ = {
+		D1121E44E48CAC80EBAF200748FEAF13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22FF79D9BD2BDA1216F2E213803F9C20 /* AHComponents-dummy.m in Sources */,
-				C44AE7088A3AF8102EEE04A41F0CFCB8 /* AHTools.swift in Sources */,
+				F1252FB731C6686CB53746B9AD8E2486 /* AHBottomPopView.swift in Sources */,
+				71BE7315846079A647572D30E273EC1C /* AHColorTools.swift in Sources */,
+				3719E7085E00593D9925E223872186E4 /* AHComponents-dummy.m in Sources */,
+				4B09D45AA0DF162D60DB17EE79138674 /* AHImageTools.swift in Sources */,
+				131FFA3BC47540F16B84979C2EBBEBF5 /* AHTools.swift in Sources */,
+				27335B5F82572E7903454F2936672E5F /* AHViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,17 +482,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6062E6DF210A6E71B6AECDA2DC7F3297 /* PBXTargetDependency */ = {
+		3DCFE1B4895D1738483B5F2889EE4FBB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AHComponents;
 			target = D293DC6CED057EF8123E8455F72BD55A /* AHComponents */;
-			targetProxy = 4E22585248BF86916C2A85F4BE7AF9B2 /* PBXContainerItemProxy */;
+			targetProxy = 71F7523D42938A1E882CC1CF93D30987 /* PBXContainerItemProxy */;
 		};
-		744D5B8E68D7D4BD6BB932A48DB92FDC /* PBXTargetDependency */ = {
+		F0270A51B161FC5306F3EF7E2857E115 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AHComponents_Example";
 			target = 81A8A0F9C343F180D73888B2A7607D91 /* Pods-AHComponents_Example */;
-			targetProxy = 4BC53D25B88B0C07D667D4E14A434F35 /* PBXContainerItemProxy */;
+			targetProxy = 656464908933BA0861FF17E3DAFC285E /* PBXContainerItemProxy */;
+		};
+		F978F335E560B5D3ECBF6458B693EB29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AHComponents-AHComponents";
+			target = 0BADA0FC84F35E56514B16A0BF0A01A4 /* AHComponents-AHComponents */;
+			targetProxy = 5E102C6EE615A66A6A245EF47C110C56 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -473,6 +570,54 @@
 			};
 			name = Debug;
 		};
+		69FDF4B4B2047F847D6FEC68A94EF1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25E097A3C4409D831291CC3462751317 /* AHComponents.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AHComponents/AHComponents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AHComponents/AHComponents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHComponents/AHComponents.modulemap";
+				PRODUCT_MODULE_NAME = AHComponents;
+				PRODUCT_NAME = AHComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CEFDD255E0206D53BDE08957E54F328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25E097A3C4409D831291CC3462751317 /* AHComponents.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AHComponents";
+				IBSC_MODULE = AHComponents;
+				INFOPLIST_FILE = "Target Support Files/AHComponents/ResourceBundle-AHComponents-AHComponents-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = AHComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -528,75 +673,11 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		898EA9296EAB623DF3FCF897B0550048 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8611BC09D1CC0EF3D70EBA10CDA005CC /* AHComponents.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AHComponents/AHComponents-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AHComponents/AHComponents-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AHComponents/AHComponents.modulemap";
-				PRODUCT_MODULE_NAME = AHComponents;
-				PRODUCT_NAME = AHComponents;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A98BD66B0C743723647A992911F1E282 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23224EDCB47CDE95B3A579A58F6C1702 /* AHComponents.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AHComponents/AHComponents-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AHComponents/AHComponents-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AHComponents/AHComponents.modulemap";
-				PRODUCT_MODULE_NAME = AHComponents;
-				PRODUCT_NAME = AHComponents;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		B3500F3D84A111EB799595F6E138FDAF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -625,6 +706,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2E1778FCE1B1E7C2C611D8E072836C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAEB098A0ABA5EA3F6438764F914A38B /* AHComponents.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AHComponents/AHComponents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AHComponents/AHComponents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHComponents/AHComponents.modulemap";
+				PRODUCT_MODULE_NAME = AHComponents;
+				PRODUCT_NAME = AHComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -731,6 +844,23 @@
 			};
 			name = Debug;
 		};
+		EB1C4D104AF7FD02742C8A9AE4F6AA53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAEB098A0ABA5EA3F6438764F914A38B /* AHComponents.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AHComponents";
+				IBSC_MODULE = AHComponents;
+				INFOPLIST_FILE = "Target Support Files/AHComponents/ResourceBundle-AHComponents-AHComponents-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = AHComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -743,20 +873,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		453AE0DF123FDE13713BF31CF91807DB /* Build configuration list for PBXNativeTarget "AHComponents" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A98BD66B0C743723647A992911F1E282 /* Debug */,
-				898EA9296EAB623DF3FCF897B0550048 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		713FF78B001B5D74EA2895E89CEE8953 /* Build configuration list for PBXNativeTarget "AHComponents-AHComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CEFDD255E0206D53BDE08957E54F328 /* Debug */,
+				EB1C4D104AF7FD02742C8A9AE4F6AA53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91460C21BBB00BEAAEFD98B02450F724 /* Build configuration list for PBXNativeTarget "AHComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69FDF4B4B2047F847D6FEC68A94EF1DA /* Debug */,
+				C2E1778FCE1B1E7C2C611D8E072836C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

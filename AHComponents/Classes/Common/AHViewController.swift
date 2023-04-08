@@ -21,10 +21,11 @@ open class AHViewController: UIViewController {
      * contentDetailHeight，内容高度
      */
     public func loadBottomPopView(contentNormalHeight: CGFloat, contentDetailHeight:CGFloat) -> UIView {
-        let bottomPopView = AHBottomBar(frame: CGRect(origin: CGPoint(x: 0, y: kScreen.height - contentNormalHeight),
+        let bottomPopView = AHBottomPopView(frame: CGRect(origin: CGPoint(x: 0, y: kScreen.height - contentNormalHeight),
                                              size: CGSize(width: kScreen.width, height: contentNormalHeight)))
         bottomPopView.normalHeight = contentNormalHeight
         bottomPopView.contentHeight = contentDetailHeight
+        bottomPopView.configUI()
         view.addSubview(bottomPopView)
         return bottomPopView.contentView
     }

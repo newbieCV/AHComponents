@@ -1,7 +1,8 @@
 {
   "name": "AHComponents",
   "version": "0.0.1",
-  "summary": "A short description of AHComponents.",
+  "summary": "A common tools in AHComponents.",
+  "swift_versions": "4.0",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/newbieCV/AHComponents",
   "license": {
@@ -12,11 +13,17 @@
     "newbieCV": "zhangzongyu00@gmail.com"
   },
   "source": {
-    "git": "git@github.com:newbieCV/AHComponents.git",
+    "git": "https://github.com/newbieCV/AHComponents.git",
     "tag": "0.0.1"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
-  "source_files": "AHComponents/Classes/**/*"
+  "source_files": "AHComponents/Classes/**/*",
+  "resource_bundles": {
+    "AHComponents": [
+      "AHComponents/Assets/AHComponents.xcassets"
+    ]
+  },
+  "swift_version": "4.0"
 }

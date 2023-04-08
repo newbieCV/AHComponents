@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import AHComponents
 
-class ViewController: UIViewController {
+class ViewController: AHViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // 上拉弹窗
+        let popView = loadBottomPopView(contentNormalHeight: 100, contentDetailHeight: 500)
+        popView.backgroundColor = .cyan
     }
 
     override func didReceiveMemoryWarning() {
