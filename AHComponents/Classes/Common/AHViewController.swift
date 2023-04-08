@@ -13,13 +13,19 @@ open class AHViewController: UIViewController {
     open override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = AHColorTools.readColor(colorName: "bgColor")
-        
-        view.addSubview(bottomView)
     }
     
-    private lazy var bottomView : AHBottomBar = {
-        let contentNormalHeight = 200
-        let view = AHBottomBar(frame: CGRect(x: 0, y: Int(kScreen.height) - contentNormalHeight, width: Int(kScreen.width), height: contentNormalHeight))
-        return view
-    }()
+    /**
+     * 上拉弹窗：
+     * contentNormalHeight，初始高度
+     * contentDetailHeight，内容高度
+     */
+    public func loadBottomPopView(contentNormalHeight: CGFloat, contentDetailHeight:CGFloat) -> UIView {
+        let bottomPopView = AHBottomBar(frame: CGRect(origin: CGPoint(x: 0, y: kScreen.height - contentNormalHeight),
+                                             size: CGSize(width: kScreen.width, height: contentNormalHeight)))
+        bottomPopView.normalHeight = contentNormalHeight
+        bottomPopView.contentHeight = contentDetailHeight
+        view.addSubview(bottomPopView)
+        return bottomPopView.contentView
+    }
 }
