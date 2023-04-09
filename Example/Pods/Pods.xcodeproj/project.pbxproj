@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		131FFA3BC47540F16B84979C2EBBEBF5 /* AHTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00618686DBA16493D4C149253881BC7A /* AHTools.swift */; };
 		1890B208966A22454ACF4D86C731C684 /* Pods-AHComponents_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 249E4BC3A4938083E533AAB3531AC031 /* Pods-AHComponents_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27335B5F82572E7903454F2936672E5F /* AHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8281BD53FB9CD09EEFF4C67FDB1C8769 /* AHViewController.swift */; };
 		2B3B795D3676899226C7E3E6C6EF7AEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3719E7085E00593D9925E223872186E4 /* AHComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEE51DF0FCECDDC2E93560261274CF /* AHComponents-dummy.m */; };
-		4B09D45AA0DF162D60DB17EE79138674 /* AHImageTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B95E81EE17F038EEC58F8264E92B67 /* AHImageTools.swift */; };
+		590C74561457E544B2BE51A7C6E4C12D /* AHImageTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B95E81EE17F038EEC58F8264E92B67 /* AHImageTools.swift */; };
 		5CC210A37D617AC313CB07B7884565CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5F7C3E73DDEBFE0AEE089A0AEA1BA9C1 /* Pods-AHComponents_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CE089E0079FD63DA7F7E6B8309961A /* Pods-AHComponents_Tests-dummy.m */; };
+		6090D68B226A0C5E2A78D2C643CB320A /* AHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921DCAEE42D3F5822ABBBC83A7087375 /* AHViewController.swift */; };
 		648990A5818AB05DC39B9DE02CF64695 /* Pods-AHComponents_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E884502C7978A16EE308A81B8BA7B16D /* Pods-AHComponents_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71BE7315846079A647572D30E273EC1C /* AHColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF7C616DC62A8AC0179986F66D0108 /* AHColorTools.swift */; };
 		78A5BCACA6C31A8A5D0A3AF738B690B4 /* AHComponents.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4191D2362D7065CE759FFA9BDD2297FB /* AHComponents.xcassets */; };
+		929FF45D6683205EEB4F947B6F1EF71E /* AHComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEE51DF0FCECDDC2E93560261274CF /* AHComponents-dummy.m */; };
+		A255A11F20582DFAC578B365974CF1FC /* AHTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00618686DBA16493D4C149253881BC7A /* AHTools.swift */; };
+		B570DCA204E609425851FF70580774C3 /* AHColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF7C616DC62A8AC0179986F66D0108 /* AHColorTools.swift */; };
 		B8907D18D746A9E818F86519B36BB0DF /* AHComponents-AHComponents in Resources */ = {isa = PBXBuildFile; fileRef = 3151B628612B6624418F7F903F133664 /* AHComponents-AHComponents */; };
 		C1FE01E8F12239C8214B1EF6CFAA9264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F1252FB731C6686CB53746B9AD8E2486 /* AHBottomPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709115A63656485FFF9637A14C1DAF51 /* AHBottomPopView.swift */; };
+		E579D53A877922B9AC4072E46E6AD3EA /* AHBottomPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC4D157AD82DF43B00896F0E665023 /* AHBottomPopView.swift */; };
 		F793A09529381D666F40853487297EC0 /* AHComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4DB4DDEA59615F18B72B0331ED3C59A /* AHComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCD8373ACF43B9579D87A61DA56966E9 /* Pods-AHComponents_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD2DA15683783D9F98CD98DFA59DE7 /* Pods-AHComponents_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -68,22 +68,22 @@
 		4210B0C83C01E9269BC763A5267A0C2E /* AHComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHComponents-prefix.pch"; sourceTree = "<group>"; };
 		67DC4552D2A854A707276AF116857DE1 /* Pods-AHComponents_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHComponents_Example-Info.plist"; sourceTree = "<group>"; };
 		67EFFC00999F347230B697057B4A2D1B /* Pods-AHComponents_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHComponents_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6AD2283C014949407B9E659C35801C57 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		709115A63656485FFF9637A14C1DAF51 /* AHBottomPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHBottomPopView.swift; sourceTree = "<group>"; };
+		6AD2283C014949407B9E659C35801C57 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		806F0061F44F4258E96ACCD107213D39 /* AHComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AHComponents-Info.plist"; sourceTree = "<group>"; };
-		8281BD53FB9CD09EEFF4C67FDB1C8769 /* AHViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHViewController.swift; sourceTree = "<group>"; };
 		8D0A68EA9B2FB463D920AF3D70FF7BE5 /* AHComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AHComponents.modulemap; sourceTree = "<group>"; };
 		8DAF7C616DC62A8AC0179986F66D0108 /* AHColorTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHColorTools.swift; sourceTree = "<group>"; };
 		8EB8823288E4980714187CA1E58CB6AF /* Pods-AHComponents_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHComponents_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		921DCAEE42D3F5822ABBBC83A7087375 /* AHViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHViewController.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1191C545D4F1CB3ED3719A3A4CCF37E /* Pods-AHComponents_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHComponents_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A4CE089E0079FD63DA7F7E6B8309961A /* Pods-AHComponents_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHComponents_Tests-dummy.m"; sourceTree = "<group>"; };
-		A5DF2BF7FECC035E9853CF68EBBBFD4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A5DF2BF7FECC035E9853CF68EBBBFD4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B4EBB3DD4049BCEC4DE42C76B30E4DCB /* Pods-AHComponents_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHComponents_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BAEB098A0ABA5EA3F6438764F914A38B /* AHComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHComponents.release.xcconfig; sourceTree = "<group>"; };
-		C2FCC97310D6685FFCA7E740A4AF238D /* AHComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AHComponents.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2FCC97310D6685FFCA7E740A4AF238D /* AHComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AHComponents.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C4DB4DDEA59615F18B72B0331ED3C59A /* AHComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHComponents-umbrella.h"; sourceTree = "<group>"; };
+		D5DC4D157AD82DF43B00896F0E665023 /* AHBottomPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHBottomPopView.swift; sourceTree = "<group>"; };
 		D73DEA498E417735D41763CF600D759A /* Pods-AHComponents_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AHComponents_Tests"; path = Pods_AHComponents_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D972B1CB93A8512077C1E8214AE6EF /* Pods-AHComponents_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHComponents_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DAC23694126DA0E77B915B56C1F6291D /* Pods-AHComponents_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AHComponents_Example.modulemap"; sourceTree = "<group>"; };
@@ -127,12 +127,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04FD68D91D2986F9E381DE5B604F1986 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D5DC4D157AD82DF43B00896F0E665023 /* AHBottomPopView.swift */,
+				921DCAEE42D3F5822ABBBC83A7087375 /* AHViewController.swift */,
+			);
+			name = Common;
+			path = AHComponents/Classes/Common;
+			sourceTree = "<group>";
+		};
 		16FD52A59595F51E60EB35AF0ED230CE /* AHComponents */ = {
 			isa = PBXGroup;
 			children = (
 				4191D2362D7065CE759FFA9BDD2297FB /* AHComponents.xcassets */,
 				292A83C05546B94CB6AA7FCA5581AB31 /* Base */,
-				8C437E371D38CB23A25B9E7C36FAF5BF /* Common */,
+				04FD68D91D2986F9E381DE5B604F1986 /* Common */,
 				26998D1E6D282B10E3E29322692E5664 /* Pod */,
 				B7AE9E78003E79618882F9F9533F0347 /* Support Files */,
 			);
@@ -183,16 +193,6 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		8C437E371D38CB23A25B9E7C36FAF5BF /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				709115A63656485FFF9637A14C1DAF51 /* AHBottomPopView.swift */,
-				8281BD53FB9CD09EEFF4C67FDB1C8769 /* AHViewController.swift */,
-			);
-			name = Common;
-			path = AHComponents/Classes/Common;
 			sourceTree = "<group>";
 		};
 		9361168AB41DD0B9E3B74A8117A5CF8D /* Pods-AHComponents_Example */ = {
@@ -365,7 +365,7 @@
 			buildConfigurationList = 91460C21BBB00BEAAEFD98B02450F724 /* Build configuration list for PBXNativeTarget "AHComponents" */;
 			buildPhases = (
 				C4568780971A6AD9F9A775E427050DDB /* Headers */,
-				D1121E44E48CAC80EBAF200748FEAF13 /* Sources */,
+				516B29B7D7B41B86A87691B29E9B19F3 /* Sources */,
 				C3054A7AFEA5A4C32FBC68224DCF545F /* Frameworks */,
 				DCC24B067012100AFBB270999CD70DB0 /* Resources */,
 			);
@@ -443,6 +443,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		516B29B7D7B41B86A87691B29E9B19F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E579D53A877922B9AC4072E46E6AD3EA /* AHBottomPopView.swift in Sources */,
+				B570DCA204E609425851FF70580774C3 /* AHColorTools.swift in Sources */,
+				929FF45D6683205EEB4F947B6F1EF71E /* AHComponents-dummy.m in Sources */,
+				590C74561457E544B2BE51A7C6E4C12D /* AHImageTools.swift in Sources */,
+				A255A11F20582DFAC578B365974CF1FC /* AHTools.swift in Sources */,
+				6090D68B226A0C5E2A78D2C643CB320A /* AHViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6968EBFA7FD18D698F8E1DBC4ED0EB04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -455,19 +468,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCD8373ACF43B9579D87A61DA56966E9 /* Pods-AHComponents_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1121E44E48CAC80EBAF200748FEAF13 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F1252FB731C6686CB53746B9AD8E2486 /* AHBottomPopView.swift in Sources */,
-				71BE7315846079A647572D30E273EC1C /* AHColorTools.swift in Sources */,
-				3719E7085E00593D9925E223872186E4 /* AHComponents-dummy.m in Sources */,
-				4B09D45AA0DF162D60DB17EE79138674 /* AHImageTools.swift in Sources */,
-				131FFA3BC47540F16B84979C2EBBEBF5 /* AHTools.swift in Sources */,
-				27335B5F82572E7903454F2936672E5F /* AHViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,7 +673,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
