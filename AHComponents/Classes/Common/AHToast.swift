@@ -55,15 +55,36 @@ extension AHToast {
     private func configContent(text: String, leftImage: UIImage?, leftImageUrl: String?) {
         AHViewTools.removeAllSubviews(view: self)
         // 添加文本
-        let label = UILabel(frame: CGRect(origin: CGPoint(x: 0, y: 0),
-                                          size: CGSize(width: kScreen.width - 60, height: 50)))
+        let label = UILabel()
         label.text = text
         label.textColor = .white
+        label.font = .systemFont(ofSize: 14)
+        label.numberOfLines = 0
         self.addSubview(label)
-        // 添加左侧图片
+        // label，view左右边距32，文本距内容左右边距8
+        let labelSize = AHLabelTools.getLabelSize(label: label, maxSize: CGSize(width: kScreen.width - 64 - 16, height: CGFloat(MAXFLOAT)))
         
-        self.frame = CGRect(origin: CGPoint(x: 30, y: kScreen.height / 2),
-                                     size: CGSize(width: kScreen.width - 60, height: 50))
+        // 添加左侧图片
+        if let leftImg: UIImage = leftImage {
+            let image = UIImageView(frame: CGRect(x: 4, y: 4, width: 16, height: 16))
+            image.image = leftImg
+            self.addSubview(image)
+            label.frame = CGRect(origin: CGPoint(x: 24, y: 4), size: labelSize)
+            self.frame = CGRect(origin: CGPoint(x: (kScreen.width - labelSize.width - 16) / 2, y: (kScreen.height - labelSize.height - 8) / 2),
+                                         size: CGSize(width: labelSize.width + 16 + 16, height: labelSize.height + 8))
+        } else if let leftImg: UIImage = AHImageTools.getImage(url: leftImageUrl) {
+            let image = UIImageView(frame: CGRect(x: 4, y: 4, width: 16, height: 16))
+            image.image = leftImg
+            self.addSubview(image)
+            label.frame = CGRect(origin: CGPoint(x: 24, y: 4), size: labelSize)
+            self.frame = CGRect(origin: CGPoint(x: (kScreen.width - labelSize.width - 16) / 2, y: (kScreen.height - labelSize.height - 8) / 2),
+                                         size: CGSize(width: labelSize.width + 16 + 16, height: labelSize.height + 8))
+        } else {
+            label.frame = CGRect(origin: CGPoint(x: 8, y: 4), size: labelSize)
+            self.frame = CGRect(origin: CGPoint(x: (kScreen.width - labelSize.width - 16) / 2, y: (kScreen.height - labelSize.height - 8) / 2),
+                                         size: CGSize(width: labelSize.width + 16, height: labelSize.height + 8))
+        }
+        
         UIApplication.shared.keyWindow?.addSubview(self)
     }
 }

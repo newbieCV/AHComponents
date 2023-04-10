@@ -15,7 +15,7 @@ public struct kScreen {
 
 class AHTools {
     // 获取资源文件Bundler
-    class func findSourceBundle() -> Bundle {
+    internal class func findSourceBundle() -> Bundle {
         /// podfile中使用了use_frameworks!
         /// Swift会导致资源放到Frameworks中，而非bundle，查找比较麻烦
         var url = Bundle.main.url(forResource: "Frameworks", withExtension: nil)
