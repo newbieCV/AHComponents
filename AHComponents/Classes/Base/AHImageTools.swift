@@ -20,10 +20,6 @@ public class AHImageTools: UIImage {
         UIGraphicsEndImageContext()
         return newImg
     }
-    // 根据URL图片资源返回图片
-    public class func getImage(url: String?) -> UIImage? {
-        return nil
-    }
     
     // 寻找podspec中图片资源
     internal class func readImage(imageName: String) -> UIImage {

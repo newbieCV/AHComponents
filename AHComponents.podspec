@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'AHComponents/Classes/**/*'
   
   s.resource_bundles = {
-    'AHComponents' => ['AHComponents/Assets/AHComponents.xcassets']
+    'AHComponents' => ['AHComponents/Assets/AHComponents.xcassets', 'AHComponents/Assets/voice/*.mp3']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

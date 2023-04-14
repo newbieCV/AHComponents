@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		29429221DF5A974BDDC9F354 /* Pods-AHComponents_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHComponents_Example.release.xcconfig"; path = "Target Support Files/Pods-AHComponents_Example/Pods-AHComponents_Example.release.xcconfig"; sourceTree = "<group>"; };
 		387CC7C2BB8EA551D4CA1568 /* Pods-AHComponents_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHComponents_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AHComponents_Tests/Pods-AHComponents_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4421C3C46D0C2BB8A188A3D9 /* AHComponents.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AHComponents.podspec; path = ../AHComponents.podspec; sourceTree = "<group>"; };
+		4421C3C46D0C2BB8A188A3D9 /* AHComponents.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AHComponents.podspec; path = ../AHComponents.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* AHComponents_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHComponents_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -212,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = K89YU52N46;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = K89YU52N46;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -478,11 +480,12 @@
 			baseConfigurationReference = 89AB0EC0FE0327A33A22F22C /* Pods-AHComponents_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K89YU52N46;
 				INFOPLIST_FILE = AHComponents/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.test.ahc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -494,11 +497,12 @@
 			baseConfigurationReference = 29429221DF5A974BDDC9F354 /* Pods-AHComponents_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K89YU52N46;
 				INFOPLIST_FILE = AHComponents/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.test.ahc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -509,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 387CC7C2BB8EA551D4CA1568 /* Pods-AHComponents_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = K89YU52N46;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -531,6 +536,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D6384D1CC939A48F8364C049 /* Pods-AHComponents_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = K89YU52N46;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

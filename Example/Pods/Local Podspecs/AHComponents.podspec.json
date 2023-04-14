@@ -22,7 +22,8 @@
   "source_files": "AHComponents/Classes/**/*",
   "resource_bundles": {
     "AHComponents": [
-      "AHComponents/Assets/AHComponents.xcassets"
+      "AHComponents/Assets/AHComponents.xcassets",
+      "AHComponents/Assets/voice/*.mp3"
     ]
   },
   "swift_version": "4.0"

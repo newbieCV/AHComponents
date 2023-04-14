@@ -28,4 +28,13 @@ class AHTools {
             return Bundle.main
         }
     }
+    // 获取keyWindow
+    public class func getCurKeyWindow() -> UIWindow {
+        var window : UIWindow?
+        if #available(iOS 15.0, *),
+           let windowScene: UIWindowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
+            window = windowScene.keyWindow
+        }
+        return window ?? UIApplication.shared.keyWindow ?? UIWindow()
+    }
 }
