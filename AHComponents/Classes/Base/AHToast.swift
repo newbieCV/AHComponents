@@ -28,6 +28,9 @@ extension AHToast {
     public func showText(text: String) {
         showText(text: text, leftImage: nil, duration: nil)
     }
+    public func showText(text: String, duration: TimeInterval?) {
+        showText(text: text, leftImage: nil, duration: duration)
+    }
     public func showText(text: String, leftImage: UIImage?, duration: TimeInterval?) {
         NSObject.cancelPreviousPerformRequests(withTarget: self, selector: #selector(hiddenAllToast), object: nil)
         configContent(text: text, leftImage: leftImage)
@@ -48,24 +51,24 @@ extension AHToast {
         let label = UILabel()
         label.text = text
         label.textColor = .white
-        label.font = .systemFont(ofSize: 14)
+        label.font = .systemFont(ofSize: 16)
         label.numberOfLines = 0
         self.addSubview(label)
-        // label，view左右边距32，文本距内容左右边距8
-        let labelSize = AHLabelTools.getLabelSize(label: label, maxSize: CGSize(width: kScreen.width - 64 - 16, height: CGFloat(MAXFLOAT)))
+        // label，view左右边距32，文本距内容左右边距32
+        let labelSize = AHLabelTools.getLabelSize(label: label, maxSize: CGSize(width: kScreen.width - 64 - 64, height: CGFloat(MAXFLOAT)))
         
         // 添加左侧图片
         if let leftImg: UIImage = leftImage {
-            let image = UIImageView(frame: CGRect(x: 4, y: 4, width: 16, height: 16))
+            let image = UIImageView(frame: CGRect(x: 16, y: 18, width: 24, height: 24))
             image.image = leftImg
             self.addSubview(image)
-            label.frame = CGRect(origin: CGPoint(x: 24, y: 4), size: labelSize)
-            self.frame = CGRect(origin: CGPoint(x: (kScreen.width - labelSize.width - 16) / 2, y: (kScreen.height - labelSize.height - 8) / 2),
-                                         size: CGSize(width: labelSize.width + 16 + 16, height: labelSize.height + 8))
+            label.frame = CGRect(origin: CGPoint(x: 44, y: 18), size: labelSize)
+            self.frame = CGRect(origin: CGPoint(x: (kScreen.width - labelSize.width - 44 - 16) / 2, y: (kScreen.height - labelSize.height - 36) / 2),
+                                         size: CGSize(width: labelSize.width + 16 + 44, height: labelSize.height + 36))
         } else {
-            label.frame = CGRect(origin: CGPoint(x: 8, y: 4), size: labelSize)
-            self.frame = CGRect(origin: CGPoint(x: (kScreen.width - labelSize.width - 16) / 2, y: (kScreen.height - labelSize.height - 8) / 2),
-                                         size: CGSize(width: labelSize.width + 16, height: labelSize.height + 8))
+            label.frame = CGRect(origin: CGPoint(x: 32, y: 18), size: labelSize)
+            self.frame = CGRect(origin: CGPoint(x: (kScreen.width - labelSize.width - 64) / 2, y: (kScreen.height - labelSize.height - 36) / 2),
+                                         size: CGSize(width: labelSize.width + 64, height: labelSize.height + 36))
         }
         
         AHTools.getCurKeyWindow().addSubview(self)

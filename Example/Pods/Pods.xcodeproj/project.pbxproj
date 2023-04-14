@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10E607158C953652A6F30812B694473E /* AHTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB63CD02E450731DCF9AF9ACF4896751 /* AHTabBarController.swift */; };
+		020B243722779B23ADBDDA4DA363A039 /* AHTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA40C6305515B6A0FF242B57550E00F8 /* AHTabBarController.swift */; };
+		09D1644E1095A946198D488CEC96EA33 /* AHLabelTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B37AEB6A16024FCBE2200FE9192BE /* AHLabelTools.swift */; };
+		0F5CD78813555FBD6BD52947C8E782D2 /* AHShakeOrRingTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7540147201FDECC632CE7ABB19255F94 /* AHShakeOrRingTools.swift */; };
 		1890B208966A22454ACF4D86C731C684 /* Pods-AHComponents_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 249E4BC3A4938083E533AAB3531AC031 /* Pods-AHComponents_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24115331E2C50B385D973084840D6976 /* AHComponents-AHComponents in Resources */ = {isa = PBXBuildFile; fileRef = 3151B628612B6624418F7F903F133664 /* AHComponents-AHComponents */; };
-		24AFC27898D57D94FC9E6FD4C22C5FAF /* ring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 971866B9DB3594E514C61E89C81F2DCE /* ring.mp3 */; };
-		27453E21A499589232B369ED4E0A3C0F /* AHShakeOrRingTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265ECED2060D71819005DD683A749EBC /* AHShakeOrRingTools.swift */; };
+		24AFC27898D57D94FC9E6FD4C22C5FAF /* ring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E207C95F85681A7363AD28E0DFB5DE65 /* ring.mp3 */; };
 		2B3B795D3676899226C7E3E6C6EF7AEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2B72840B37EE7FEB32D1E004B27AC294 /* AHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E282B1CC547C7D9D24FD1A382ABA56DF /* AHViewController.swift */; };
+		2E0F83593A675F5982AC6A5FC6745BDE /* AHViewTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BC41B55DEFD48509CA5DE62CEA21FF /* AHViewTools.swift */; };
+		41B4135BE20B22EE4305D55277C19023 /* AHComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F04A9E3DCF68E74305576D40EB1EB3A /* AHComponents-dummy.m */; };
 		5CC210A37D617AC313CB07B7884565CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5F7C3E73DDEBFE0AEE089A0AEA1BA9C1 /* Pods-AHComponents_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CE089E0079FD63DA7F7E6B8309961A /* Pods-AHComponents_Tests-dummy.m */; };
 		648990A5818AB05DC39B9DE02CF64695 /* Pods-AHComponents_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E884502C7978A16EE308A81B8BA7B16D /* Pods-AHComponents_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6674B162F982D54BA81A93FCC2CB86F8 /* AHLabelTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546743C214184F6484A634F12A0717CF /* AHLabelTools.swift */; };
 		67EA3F72E78F91A96912AFF1DA081803 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7A9D4930A55612E9D775FF0FF00DA8F1 /* AHComponents.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD12EC392B93544BCD9215A12CB953E1 /* AHComponents.xcassets */; };
-		A6837AA9D9E360C39A94A58C116D2554 /* AHToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5575A663FD804E9B01CF7E08877A8E1 /* AHToast.swift */; };
-		AE5E78699C84B4390B73F06AF073F7E0 /* AHViewTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ABEC494E34F89DE3A62D84393A8ECD /* AHViewTools.swift */; };
-		B405F91E29E31C3C79C46F502A5487E2 /* AHComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F035E0D745C71F82BAAF71A0C6D684 /* AHComponents-dummy.m */; };
-		BA1EB5BF8B0AC63B4E004661FE7DED00 /* AHImageTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE16E5FCB668C6133F5F1D221468773B /* AHImageTools.swift */; };
-		BB3D90934C519AAFB38652D1D11B2E8B /* AHComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E82741821525CADF20BB3C40A36A869C /* AHComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5AA9402355895EB1DDBC009832E6B86 /* AHTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7E02353663D36D042744EB7E47261 /* AHTools.swift */; };
-		D6031F4E42BBC1EE9BD99324FAE78BFA /* AHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F54396D9481CB37A0F8919C58F91A8D /* AHViewController.swift */; };
-		E408755339C732B8C64B88F7D31860E2 /* AHColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C6BF88A716C6A96B16F080B8091620 /* AHColorTools.swift */; };
-		E5428E1EAA4323C1AB75C479AD2E06D6 /* AHBottomPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549308FFA5291478EA286EE9A228092E /* AHBottomPopView.swift */; };
+		68F4ED91325E80CF5E0D8CB5827889E8 /* AHToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F767D5B79E8E52932E954C2B07111 /* AHToast.swift */; };
+		75090419DBFFEA914F33C8BF6DCEDFE4 /* AHBottomPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D41CFF24128CC581DDC6B616C575AC8 /* AHBottomPopView.swift */; };
+		768625417631DE9D2D2FD03D4AF1885A /* AHTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3505A7CECB5E8C9B5886A4B377A961F2 /* AHTools.swift */; };
+		7A9D4930A55612E9D775FF0FF00DA8F1 /* AHComponents.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F00CD63E05088A72F09FB1CA37B37BD /* AHComponents.xcassets */; };
+		9C2BC0D9984D1DA28AE4DC0CC6A293EB /* AHColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EF7092B3027525B7F6E68A7ADEFD3 /* AHColorTools.swift */; };
+		BB3D90934C519AAFB38652D1D11B2E8B /* AHComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCAB77DC4020255197059618E0FF00D4 /* AHComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2AFABD781FE0769DF21692720A314C9 /* AHImageTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636EC2A7CAD9F3E304FFCB9D2F6990E5 /* AHImageTools.swift */; };
 		FCD8373ACF43B9579D87A61DA56966E9 /* Pods-AHComponents_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD2DA15683783D9F98CD98DFA59DE7 /* Pods-AHComponents_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -57,51 +57,51 @@
 
 /* Begin PBXFileReference section */
 		03F0A296C85F8EA1583EF094D15F07BC /* Pods-AHComponents_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHComponents_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		09C6BF88A716C6A96B16F080B8091620 /* AHColorTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHColorTools.swift; sourceTree = "<group>"; };
-		12ABEC494E34F89DE3A62D84393A8ECD /* AHViewTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHViewTools.swift; sourceTree = "<group>"; };
 		1795174E7B817C5422BB2E1BC9F7CBB4 /* AHComponents */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AHComponents; path = AHComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8B966474A87AF59E41CE51F947DAA1 /* Pods-AHComponents_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHComponents_Example.release.xcconfig"; sourceTree = "<group>"; };
 		21EF37F66B1CD45A477069BD4ECBC5F7 /* Pods-AHComponents_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AHComponents_Tests.modulemap"; sourceTree = "<group>"; };
 		223D47B5270B8FDD1DE6C3DA6507A3C1 /* Pods-AHComponents_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AHComponents_Example"; path = Pods_AHComponents_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23AD2DA15683783D9F98CD98DFA59DE7 /* Pods-AHComponents_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHComponents_Example-dummy.m"; sourceTree = "<group>"; };
 		249E4BC3A4938083E533AAB3531AC031 /* Pods-AHComponents_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHComponents_Tests-umbrella.h"; sourceTree = "<group>"; };
-		265ECED2060D71819005DD683A749EBC /* AHShakeOrRingTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHShakeOrRingTools.swift; sourceTree = "<group>"; };
 		2E4A420FCFE86934985E9B4805ABA8BB /* Pods-AHComponents_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHComponents_Tests-Info.plist"; sourceTree = "<group>"; };
-		2E53D226D3084BDDEA1C3F3BA4AF33BA /* AHComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHComponents.debug.xcconfig; sourceTree = "<group>"; };
-		2F54396D9481CB37A0F8919C58F91A8D /* AHViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHViewController.swift; sourceTree = "<group>"; };
+		2E5E14BF24B50C6FD51521969AAA0085 /* AHComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AHComponents.modulemap; sourceTree = "<group>"; };
 		3151B628612B6624418F7F903F133664 /* AHComponents-AHComponents */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "AHComponents-AHComponents"; path = AHComponents.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3505A7CECB5E8C9B5886A4B377A961F2 /* AHTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHTools.swift; sourceTree = "<group>"; };
 		3BD317386452F17DA2A343C666A11357 /* Pods-AHComponents_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHComponents_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		42D52796BD2C7CDEF1229D45983A848F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		474EA6421D3DD712B18DB4DB94E676A1 /* AHComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AHComponents-Info.plist"; sourceTree = "<group>"; };
-		546743C214184F6484A634F12A0717CF /* AHLabelTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHLabelTools.swift; sourceTree = "<group>"; };
-		549308FFA5291478EA286EE9A228092E /* AHBottomPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHBottomPopView.swift; sourceTree = "<group>"; };
-		5CD7E02353663D36D042744EB7E47261 /* AHTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHTools.swift; sourceTree = "<group>"; };
-		5E203BC1723692FFB20788CDA0CB9414 /* AHComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHComponents.release.xcconfig; sourceTree = "<group>"; };
+		3F04A9E3DCF68E74305576D40EB1EB3A /* AHComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AHComponents-dummy.m"; sourceTree = "<group>"; };
+		3F79BC725125766FF82AB926DA571E6D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		514B37AEB6A16024FCBE2200FE9192BE /* AHLabelTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHLabelTools.swift; sourceTree = "<group>"; };
+		5D41CFF24128CC581DDC6B616C575AC8 /* AHBottomPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHBottomPopView.swift; sourceTree = "<group>"; };
+		636EC2A7CAD9F3E304FFCB9D2F6990E5 /* AHImageTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHImageTools.swift; sourceTree = "<group>"; };
+		657ED5066736973E1065FCB6CDF97819 /* ResourceBundle-AHComponents-AHComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AHComponents-AHComponents-Info.plist"; sourceTree = "<group>"; };
 		67DC4552D2A854A707276AF116857DE1 /* Pods-AHComponents_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHComponents_Example-Info.plist"; sourceTree = "<group>"; };
 		67EFFC00999F347230B697057B4A2D1B /* Pods-AHComponents_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHComponents_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6A261032EB4EF193393564FA1319B613 /* AHComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHComponents.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7BA354634EB6ED53FCC8DBE36DAEA6BE /* AHComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AHComponents.modulemap; sourceTree = "<group>"; };
-		84F035E0D745C71F82BAAF71A0C6D684 /* AHComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AHComponents-dummy.m"; sourceTree = "<group>"; };
+		7540147201FDECC632CE7ABB19255F94 /* AHShakeOrRingTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHShakeOrRingTools.swift; sourceTree = "<group>"; };
 		8EB8823288E4980714187CA1E58CB6AF /* Pods-AHComponents_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHComponents_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		94419B2A654279E4D4F216742793B6DB /* ResourceBundle-AHComponents-AHComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AHComponents-AHComponents-Info.plist"; sourceTree = "<group>"; };
-		971866B9DB3594E514C61E89C81F2DCE /* ring.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = ring.mp3; sourceTree = "<group>"; };
-		98F64358FD6FC8655122BB0FAB545017 /* AHComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHComponents-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BE5090F06F28CC68879D6E43AAA4B47 /* AHComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHComponents-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F00CD63E05088A72F09FB1CA37B37BD /* AHComponents.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = AHComponents.xcassets; path = AHComponents/Assets/AHComponents.xcassets; sourceTree = "<group>"; };
+		9F46A812D762644F38010E848228DFDF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A1191C545D4F1CB3ED3719A3A4CCF37E /* Pods-AHComponents_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHComponents_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A16EF7092B3027525B7F6E68A7ADEFD3 /* AHColorTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHColorTools.swift; sourceTree = "<group>"; };
 		A4CE089E0079FD63DA7F7E6B8309961A /* Pods-AHComponents_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHComponents_Tests-dummy.m"; sourceTree = "<group>"; };
-		AD12EC392B93544BCD9215A12CB953E1 /* AHComponents.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = AHComponents.xcassets; path = AHComponents/Assets/AHComponents.xcassets; sourceTree = "<group>"; };
+		B1BC41B55DEFD48509CA5DE62CEA21FF /* AHViewTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHViewTools.swift; sourceTree = "<group>"; };
 		B4EBB3DD4049BCEC4DE42C76B30E4DCB /* Pods-AHComponents_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHComponents_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BB63CD02E450731DCF9AF9ACF4896751 /* AHTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHTabBarController.swift; sourceTree = "<group>"; };
-		C618E4CE208F3F6CD2F0B1D1706C3C87 /* AHComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AHComponents.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA40C6305515B6A0FF242B57550E00F8 /* AHTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHTabBarController.swift; sourceTree = "<group>"; };
+		BC2F767D5B79E8E52932E954C2B07111 /* AHToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHToast.swift; sourceTree = "<group>"; };
+		BCAB77DC4020255197059618E0FF00D4 /* AHComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHComponents-umbrella.h"; sourceTree = "<group>"; };
 		D73DEA498E417735D41763CF600D759A /* Pods-AHComponents_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AHComponents_Tests"; path = Pods_AHComponents_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D972B1CB93A8512077C1E8214AE6EF /* Pods-AHComponents_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHComponents_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DAC23694126DA0E77B915B56C1F6291D /* Pods-AHComponents_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AHComponents_Example.modulemap"; sourceTree = "<group>"; };
-		DE16E5FCB668C6133F5F1D221468773B /* AHImageTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHImageTools.swift; sourceTree = "<group>"; };
-		E5575A663FD804E9B01CF7E08877A8E1 /* AHToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHToast.swift; sourceTree = "<group>"; };
-		E82741821525CADF20BB3C40A36A869C /* AHComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHComponents-umbrella.h"; sourceTree = "<group>"; };
+		E207C95F85681A7363AD28E0DFB5DE65 /* ring.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = ring.mp3; sourceTree = "<group>"; };
+		E282B1CC547C7D9D24FD1A382ABA56DF /* AHViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHViewController.swift; sourceTree = "<group>"; };
+		E6DC065FA758D23E1351788497ECB8A2 /* AHComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHComponents.release.xcconfig; sourceTree = "<group>"; };
 		E85AD8F23FB3AC5D9D68202A9305CE9A /* Pods-AHComponents_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHComponents_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E884502C7978A16EE308A81B8BA7B16D /* Pods-AHComponents_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHComponents_Example-umbrella.h"; sourceTree = "<group>"; };
-		E9EF2650FCB62733391DDF6D7D9104BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E9DFF856DDF325DC40203ABA907116B8 /* AHComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AHComponents-Info.plist"; sourceTree = "<group>"; };
+		EC6B3B04517AF30FE145448BD1DBC03A /* AHComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AHComponents.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +139,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		102C54A284B13D2891A901C597791BBA /* voice */ = {
+			isa = PBXGroup;
+			children = (
+				E207C95F85681A7363AD28E0DFB5DE65 /* ring.mp3 */,
+			);
+			name = voice;
+			path = AHComponents/Assets/voice;
+			sourceTree = "<group>";
+		};
+		3131D21B299AD48A126065B043C81ADA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A16EF7092B3027525B7F6E68A7ADEFD3 /* AHColorTools.swift */,
+				636EC2A7CAD9F3E304FFCB9D2F6990E5 /* AHImageTools.swift */,
+				514B37AEB6A16024FCBE2200FE9192BE /* AHLabelTools.swift */,
+				7540147201FDECC632CE7ABB19255F94 /* AHShakeOrRingTools.swift */,
+				BC2F767D5B79E8E52932E954C2B07111 /* AHToast.swift */,
+				3505A7CECB5E8C9B5886A4B377A961F2 /* AHTools.swift */,
+				B1BC41B55DEFD48509CA5DE62CEA21FF /* AHViewTools.swift */,
+			);
+			name = Base;
+			path = AHComponents/Classes/Base;
+			sourceTree = "<group>";
+		};
 		4F11492FB212C4966C76A03BFEEA9A9B /* Pods-AHComponents_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,22 +179,6 @@
 			path = "Target Support Files/Pods-AHComponents_Tests";
 			sourceTree = "<group>";
 		};
-		554EE2732E3EC18572A43ABEF2FB6B14 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7BA354634EB6ED53FCC8DBE36DAEA6BE /* AHComponents.modulemap */,
-				84F035E0D745C71F82BAAF71A0C6D684 /* AHComponents-dummy.m */,
-				474EA6421D3DD712B18DB4DB94E676A1 /* AHComponents-Info.plist */,
-				98F64358FD6FC8655122BB0FAB545017 /* AHComponents-prefix.pch */,
-				E82741821525CADF20BB3C40A36A869C /* AHComponents-umbrella.h */,
-				2E53D226D3084BDDEA1C3F3BA4AF33BA /* AHComponents.debug.xcconfig */,
-				5E203BC1723692FFB20788CDA0CB9414 /* AHComponents.release.xcconfig */,
-				94419B2A654279E4D4F216742793B6DB /* ResourceBundle-AHComponents-AHComponents-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AHComponents";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,7 +190,7 @@
 		8D1CD9AE19550DD3236128FA5344BD2C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D7CF064568862A4ACF81C207142AA4FE /* AHComponents */,
+				E2F256821DEF332EB4C5A93492F4B92B /* AHComponents */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -204,6 +212,22 @@
 			path = "Target Support Files/Pods-AHComponents_Example";
 			sourceTree = "<group>";
 		};
+		942EAC8C55E01DF32A65653B92A3A453 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E5E14BF24B50C6FD51521969AAA0085 /* AHComponents.modulemap */,
+				3F04A9E3DCF68E74305576D40EB1EB3A /* AHComponents-dummy.m */,
+				E9DFF856DDF325DC40203ABA907116B8 /* AHComponents-Info.plist */,
+				9BE5090F06F28CC68879D6E43AAA4B47 /* AHComponents-prefix.pch */,
+				BCAB77DC4020255197059618E0FF00D4 /* AHComponents-umbrella.h */,
+				6A261032EB4EF193393564FA1319B613 /* AHComponents.debug.xcconfig */,
+				E6DC065FA758D23E1351788497ECB8A2 /* AHComponents.release.xcconfig */,
+				657ED5066736973E1065FCB6CDF97819 /* ResourceBundle-AHComponents-AHComponents-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AHComponents";
+			sourceTree = "<group>";
+		};
 		A5B665A759AE0BEACAA5C9738B8EC550 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,21 +239,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A7C7295B9EC17179147C3B852E8DA2D6 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				09C6BF88A716C6A96B16F080B8091620 /* AHColorTools.swift */,
-				DE16E5FCB668C6133F5F1D221468773B /* AHImageTools.swift */,
-				546743C214184F6484A634F12A0717CF /* AHLabelTools.swift */,
-				265ECED2060D71819005DD683A749EBC /* AHShakeOrRingTools.swift */,
-				5CD7E02353663D36D042744EB7E47261 /* AHTools.swift */,
-				12ABEC494E34F89DE3A62D84393A8ECD /* AHViewTools.swift */,
-				E5575A663FD804E9B01CF7E08877A8E1 /* AHToast.swift */,
-			);
-			name = Base;
-			path = AHComponents/Classes/Base;
-			sourceTree = "<group>";
-		};
 		BE25D9D5286260AF750515ACBB058E61 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,15 +246,6 @@
 				4F11492FB212C4966C76A03BFEEA9A9B /* Pods-AHComponents_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		CD2ACC962E8CF54D8B755CE93D5B9B18 /* voice */ = {
-			isa = PBXGroup;
-			children = (
-				971866B9DB3594E514C61E89C81F2DCE /* ring.mp3 */,
-			);
-			name = voice;
-			path = AHComponents/Assets/voice;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -259,6 +259,17 @@
 			);
 			sourceTree = "<group>";
 		};
+		CF6D6549F203C294928C4D3AB85A17FD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5D41CFF24128CC581DDC6B616C575AC8 /* AHBottomPopView.swift */,
+				BA40C6305515B6A0FF242B57550E00F8 /* AHTabBarController.swift */,
+				E282B1CC547C7D9D24FD1A382ABA56DF /* AHViewController.swift */,
+			);
+			name = Common;
+			path = AHComponents/Classes/Common;
+			sourceTree = "<group>";
+		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -267,39 +278,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D7CF064568862A4ACF81C207142AA4FE /* AHComponents */ = {
+		DC1FD88B0E408BE55D62A979F7ADD1E6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				AD12EC392B93544BCD9215A12CB953E1 /* AHComponents.xcassets */,
-				A7C7295B9EC17179147C3B852E8DA2D6 /* Base */,
-				F0639C1640D557C3F3F15D30EFC18B34 /* Common */,
-				F130E5B3C42B89B8E632AF17BD3181CC /* Pod */,
-				554EE2732E3EC18572A43ABEF2FB6B14 /* Support Files */,
-				CD2ACC962E8CF54D8B755CE93D5B9B18 /* voice */,
+				EC6B3B04517AF30FE145448BD1DBC03A /* AHComponents.podspec */,
+				9F46A812D762644F38010E848228DFDF /* LICENSE */,
+				3F79BC725125766FF82AB926DA571E6D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E2F256821DEF332EB4C5A93492F4B92B /* AHComponents */ = {
+			isa = PBXGroup;
+			children = (
+				9F00CD63E05088A72F09FB1CA37B37BD /* AHComponents.xcassets */,
+				3131D21B299AD48A126065B043C81ADA /* Base */,
+				CF6D6549F203C294928C4D3AB85A17FD /* Common */,
+				DC1FD88B0E408BE55D62A979F7ADD1E6 /* Pod */,
+				942EAC8C55E01DF32A65653B92A3A453 /* Support Files */,
+				102C54A284B13D2891A901C597791BBA /* voice */,
 			);
 			name = AHComponents;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		F0639C1640D557C3F3F15D30EFC18B34 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				549308FFA5291478EA286EE9A228092E /* AHBottomPopView.swift */,
-				BB63CD02E450731DCF9AF9ACF4896751 /* AHTabBarController.swift */,
-				2F54396D9481CB37A0F8919C58F91A8D /* AHViewController.swift */,
-			);
-			name = Common;
-			path = AHComponents/Classes/Common;
-			sourceTree = "<group>";
-		};
-		F130E5B3C42B89B8E632AF17BD3181CC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C618E4CE208F3F6CD2F0B1D1706C3C87 /* AHComponents.podspec */,
-				42D52796BD2C7CDEF1229D45983A848F /* LICENSE */,
-				E9EF2650FCB62733391DDF6D7D9104BA /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,7 +392,7 @@
 			buildConfigurationList = 04947B4A92D55EC98FD6B7FA4507241A /* Build configuration list for PBXNativeTarget "AHComponents" */;
 			buildPhases = (
 				C3FC211FA820C6745F9BB75C28762E0D /* Headers */,
-				10390F04331C26E0960F406FD36A08CB /* Sources */,
+				33F51B27162044B9D57A0DC9C2260090 /* Sources */,
 				3FB2A34FBC9276CDD374772D00884BEF /* Frameworks */,
 				9C0174C1F223761C60FD51FF2FF09704 /* Resources */,
 			);
@@ -471,21 +471,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		10390F04331C26E0960F406FD36A08CB /* Sources */ = {
+		33F51B27162044B9D57A0DC9C2260090 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5428E1EAA4323C1AB75C479AD2E06D6 /* AHBottomPopView.swift in Sources */,
-				E408755339C732B8C64B88F7D31860E2 /* AHColorTools.swift in Sources */,
-				B405F91E29E31C3C79C46F502A5487E2 /* AHComponents-dummy.m in Sources */,
-				BA1EB5BF8B0AC63B4E004661FE7DED00 /* AHImageTools.swift in Sources */,
-				6674B162F982D54BA81A93FCC2CB86F8 /* AHLabelTools.swift in Sources */,
-				27453E21A499589232B369ED4E0A3C0F /* AHShakeOrRingTools.swift in Sources */,
-				10E607158C953652A6F30812B694473E /* AHTabBarController.swift in Sources */,
-				A6837AA9D9E360C39A94A58C116D2554 /* AHToast.swift in Sources */,
-				D5AA9402355895EB1DDBC009832E6B86 /* AHTools.swift in Sources */,
-				D6031F4E42BBC1EE9BD99324FAE78BFA /* AHViewController.swift in Sources */,
-				AE5E78699C84B4390B73F06AF073F7E0 /* AHViewTools.swift in Sources */,
+				75090419DBFFEA914F33C8BF6DCEDFE4 /* AHBottomPopView.swift in Sources */,
+				9C2BC0D9984D1DA28AE4DC0CC6A293EB /* AHColorTools.swift in Sources */,
+				41B4135BE20B22EE4305D55277C19023 /* AHComponents-dummy.m in Sources */,
+				E2AFABD781FE0769DF21692720A314C9 /* AHImageTools.swift in Sources */,
+				09D1644E1095A946198D488CEC96EA33 /* AHLabelTools.swift in Sources */,
+				0F5CD78813555FBD6BD52947C8E782D2 /* AHShakeOrRingTools.swift in Sources */,
+				020B243722779B23ADBDDA4DA363A039 /* AHTabBarController.swift in Sources */,
+				68F4ED91325E80CF5E0D8CB5827889E8 /* AHToast.swift in Sources */,
+				768625417631DE9D2D2FD03D4AF1885A /* AHTools.swift in Sources */,
+				2B72840B37EE7FEB32D1E004B27AC294 /* AHViewController.swift in Sources */,
+				2E0F83593A675F5982AC6A5FC6745BDE /* AHViewTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,7 +538,7 @@
 /* Begin XCBuildConfiguration section */
 		148F981730C5EFE4952700F534D0CD83 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E203BC1723692FFB20788CDA0CB9414 /* AHComponents.release.xcconfig */;
+			baseConfigurationReference = E6DC065FA758D23E1351788497ECB8A2 /* AHComponents.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AHComponents";
@@ -555,7 +555,7 @@
 		};
 		3C9B6B7B07D967F3F654DB962A21255B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E53D226D3084BDDEA1C3F3BA4AF33BA /* AHComponents.debug.xcconfig */;
+			baseConfigurationReference = 6A261032EB4EF193393564FA1319B613 /* AHComponents.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -653,7 +653,7 @@
 		};
 		6261B8D7DFFCD14BF0F90C52D5CC7BA8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E203BC1723692FFB20788CDA0CB9414 /* AHComponents.release.xcconfig */;
+			baseConfigurationReference = E6DC065FA758D23E1351788497ECB8A2 /* AHComponents.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -738,7 +738,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -780,7 +781,7 @@
 		};
 		B690C4E8127A1D0068B4215FC3D478F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E53D226D3084BDDEA1C3F3BA4AF33BA /* AHComponents.debug.xcconfig */;
+			baseConfigurationReference = 6A261032EB4EF193393564FA1319B613 /* AHComponents.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AHComponents";

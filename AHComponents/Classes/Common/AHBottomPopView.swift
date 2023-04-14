@@ -31,7 +31,7 @@ class AHBottomPopView: UIView {
     }
     
     // 指示器
-    lazy var indicateImgView : UIImageView = {
+    private lazy var indicateImgView : UIImageView = {
         let view = UIImageView(frame: CGRect(origin: CGPoint(x: (kScreen.width - 38) / 2, y: 0),
                                              size: CGSize(width: 38, height: indicateHeight)))
         view.image = AHImageTools.readImage(imageName: "indicator")
@@ -39,7 +39,7 @@ class AHBottomPopView: UIView {
     }()
     
     // 内容容器
-    lazy var contentView : UIView = {
+    public lazy var contentView : UIView = {
         let frame = CGRect(origin: CGPoint(x: 0, y: self.indicateHeight),
                            size: CGSizeMake(kScreen.width, self.contentHeight))
         let view = UIView(frame: frame)
@@ -49,8 +49,8 @@ class AHBottomPopView: UIView {
     }()
     
     // 处理手势相关，用于恢复状态
-    var startPoint = CGPoint(x: 0, y: 0)
-    var startFrame = CGRect.zero
+    private var startPoint = CGPoint(x: 0, y: 0)
+    private var startFrame = CGRect.zero
 }
 
 // MARK: - 响应手势相关
@@ -94,7 +94,7 @@ extension AHBottomPopView: UIGestureRecognizerDelegate {
 
 // MARK: - 滑动处理
 extension AHBottomPopView {
-    func pullUpView(offsetYHeight: CGFloat) {
+    private func pullUpView(offsetYHeight: CGFloat) {
         if (offsetYHeight > safeGestureArea) {
             UIView.animate(withDuration: 0.3) {
                 self.frame = CGRect(origin: CGPoint(x: 0, y: Int(kScreen.height - self.contentHeight)),

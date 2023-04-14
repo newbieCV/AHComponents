@@ -13,7 +13,7 @@ public struct kScreen {
     public static let height = UIScreen.main.bounds.height
 }
 
-class AHTools {
+public class AHTools {
     // 获取资源文件Bundler
     internal class func findSourceBundle() -> Bundle {
         /// podfile中使用了use_frameworks!

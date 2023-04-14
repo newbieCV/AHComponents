@@ -14,7 +14,7 @@ public enum AHRingAndShakeType {
     case ringAndShake
 }
 
-public class AHShakeOrRingTools {
+public final class AHShakeOrRingTools {
     public static let shared = AHShakeOrRingTools()
     
     // 响铃标识
