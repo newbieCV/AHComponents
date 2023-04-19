@@ -23,7 +23,7 @@ class AHBottomPopView: UIView {
     var normalHeight = 18.0    // 初始高度
     var contentHeight = 18.0   // 内容高度
     let safeGestureArea = 10.0  // 安全距离
-    let indicateHeight = 18     // 指示器高度
+    let indicateHeight = 18.0     // 指示器高度
     
     func configUI() {
         self.addSubview(indicateImgView)
@@ -68,8 +68,11 @@ extension AHBottomPopView: UIGestureRecognizerDelegate {
         if let touch: UITouch = (touches as NSSet).anyObject() as? UITouch {
             let point = touch.location(in: superview)
             let offsetYHeight = self.frame.origin.y - startPoint.y + point.y
+            if ((offsetYHeight > 0 ? offsetYHeight : -offsetYHeight) < safeGestureArea) {
+                return
+            }
             // 防止超出安全区域
-            if (offsetYHeight > (kScreen.height - self.contentHeight)) {
+            if (offsetYHeight > (kScreen.height - self.contentHeight) && offsetYHeight < kScreen.height) {
                 self.frame = CGRect(origin: CGPoint(x: 0, y: offsetYHeight),
                                     size: CGSizeMake(kScreen.width, self.contentHeight))
                 self.contentView.frame.size = CGSizeMake(kScreen.width, self.contentHeight)
