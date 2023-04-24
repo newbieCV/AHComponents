@@ -14,6 +14,7 @@ class ViewController: AHViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        view.backgroundColor = .lightGray
         
         // 上拉弹窗
         let popView = loadBottomPopView(contentNormalHeight: 100, contentDetailHeight: 500)
@@ -42,11 +43,45 @@ class ViewController: AHViewController {
         ringBtn.frame = CGRect(origin: CGPoint(x: 0, y: 250), size: CGSize(width: 150, height: 50))
         ringBtn.addTarget(self, action: #selector(stopShakeBtn), for: .touchUpInside)
         view.addSubview(ringBtn)
+        
+        // 音频播放
+        let avPlay = UIButton()
+        avPlay.backgroundColor = .green
+        avPlay.setTitle("播放音乐", for: .normal)
+        avPlay.frame = CGRect(origin: CGPoint(x: 0, y: 350), size: CGSize(width: 150, height: 50))
+        avPlay.addTarget(self, action: #selector(play), for: .touchUpInside)
+        view.addSubview(avPlay)
+        let avStop = UIButton()
+        avStop.backgroundColor = .green
+        avStop.setTitle("停止音乐", for: .normal)
+        avStop.frame = CGRect(origin: CGPoint(x: 0, y: 400), size: CGSize(width: 150, height: 50))
+        avStop.addTarget(self, action: #selector(stop), for: .touchUpInside)
+        view.addSubview(avStop)
+        let avPause = UIButton()
+        avPause.backgroundColor = .green
+        avPause.setTitle("停止音乐", for: .normal)
+        avPause.frame = CGRect(origin: CGPoint(x: 0, y: 450), size: CGSize(width: 150, height: 50))
+        avPause.addTarget(self, action: #selector(pause), for: .touchUpInside)
+        view.addSubview(avPause)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @objc
+    func play() {
+        AHAudioPlayer.shared.configAudio(urlStr: "")
+        AHAudioPlayer.shared.play()
+    }
+    @objc
+    func stop() {
+        AHAudioPlayer.shared.stop()
+    }
+    @objc
+    func pause() {
+        AHAudioPlayer.shared.pause()
     }
     
     var count = 0
