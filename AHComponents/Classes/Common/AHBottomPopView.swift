@@ -45,6 +45,7 @@ class AHBottomPopView: UIView {
         let view = UIView(frame: frame)
         view.backgroundColor = AHColorTools.readColor(colorName: "bgColor")
         view.layer.cornerRadius = 8
+        view.layer.masksToBounds = true
         return view
     }()
     

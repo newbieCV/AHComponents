@@ -21,11 +21,12 @@ extension AHAudioPlayer {
         if let url = URL(string: urlStr) {
             player = try? AVAudioPlayer(contentsOf: url)
             player?.delegate = self
-        } else {
+        }
+        #if DEBUG
             let path = AHTools.findSourceBundle().path(forResource: "ring", ofType: "mp3")
             player = try? AVAudioPlayer(contentsOf: URL(string: path ?? "")!)
             player?.delegate = self
-        }
+        #endif
     }
     
     public func playStatus() -> Bool {
