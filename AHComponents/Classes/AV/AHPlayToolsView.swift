@@ -59,11 +59,20 @@ public class AHPlayToolsView: UIView {
 }
 
 extension AHPlayToolsView {
+    func slideValue(value: Float) {
+        slideBar.setValue(value, animated: true)
+    }
+    
     @objc
     func clickPlayBtn() {
         playBtn.isSelected = !playBtn.isSelected
         if let callBack = clickPlay {
             callBack(playBtn.isSelected)
+        }
+        if playBtn.isSelected {
+            slideBar.isContinuous = true
+        } else {
+            slideBar.isContinuous = false
         }
     }
     @objc

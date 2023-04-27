@@ -14,6 +14,7 @@ open class AHTabBarController: UITabBarController {
         
         tabBar.backgroundColor = AHColorTools.readColor(colorName: "tabBarBgColor")
         tabBar.tintColor = .orange
+        tabBar.unselectedItemTintColor = AHColorTools.readColor(colorName: "textColor")
         // 设置文字颜色不跟随tintColor
         UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: AHColorTools.readColor(colorName: "textColor")], for: .selected)
     }
