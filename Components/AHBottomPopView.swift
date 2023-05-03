@@ -68,7 +68,7 @@ extension AHBottomPopView: UIGestureRecognizerDelegate {
         super.touchesMoved(touches, with: event)
         if let touch: UITouch = (touches as NSSet).anyObject() as? UITouch {
             let point = touch.location(in: superview)
-            let offsetYHeight = self.frame.origin.y - startPoint.y + point.y
+            let offsetYHeight = startFrame.origin.y - startPoint.y + point.y
             if ((offsetYHeight > 0 ? offsetYHeight : -offsetYHeight) < safeGestureArea) {
                 return
             }

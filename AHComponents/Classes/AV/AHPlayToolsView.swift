@@ -62,7 +62,6 @@ public class AHPlayToolsView: UIView {
 extension AHPlayToolsView {
     public func updateSlideProgress(curTime: TimeInterval?, duration: TimeInterval?) {
         let value = (curTime ?? 0.0) / (duration ?? 0.0)
-        print("========\(value)---")
         slideBar.setValue(Float(value), animated: true)
     }
 }
