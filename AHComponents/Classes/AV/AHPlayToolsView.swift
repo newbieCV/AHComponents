@@ -58,23 +58,29 @@ public class AHPlayToolsView: UIView {
     }()
 }
 
+// MARK: - slide
 extension AHPlayToolsView {
-    func slideValue(value: Float) {
-        slideBar.setValue(value, animated: true)
+    public func updateSlideProgress(curTime: TimeInterval?, duration: TimeInterval?) {
+        let value = (curTime ?? 0.0) / (duration ?? 0.0)
+        print("========\(value)---")
+        slideBar.setValue(Float(value), animated: true)
     }
-    
+}
+
+// MARK: - click event
+extension AHPlayToolsView {
     @objc
     func clickPlayBtn() {
         playBtn.isSelected = !playBtn.isSelected
         if let callBack = clickPlay {
             callBack(playBtn.isSelected)
         }
-        if playBtn.isSelected {
-            slideBar.isContinuous = true
-        } else {
-            slideBar.isContinuous = false
-        }
     }
+    
+    public func changePlayBtn(status: Bool) {
+        playBtn.isSelected = status
+    }
+    
     @objc
     func clickLastBtn() {
         if let callBack = clickLast {
