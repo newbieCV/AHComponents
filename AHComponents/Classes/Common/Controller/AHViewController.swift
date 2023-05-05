@@ -20,7 +20,7 @@ open class AHViewController: UIViewController {
      * contentNormalHeight，初始高度
      * contentDetailHeight，内容高度
      */
-    public func loadBottomPopView(contentNormalHeight: CGFloat, contentDetailHeight:CGFloat) -> UIView {
+    public func loadBottomPopView(contentNormalHeight: CGFloat, contentDetailHeight:CGFloat) -> AHTableView {
         let bottomPopView = AHBottomPopView(frame: CGRect(origin: CGPoint(x: 0, y: kScreen.height - contentNormalHeight),
                                              size: CGSize(width: kScreen.width, height: contentNormalHeight)))
         bottomPopView.normalHeight = contentNormalHeight
