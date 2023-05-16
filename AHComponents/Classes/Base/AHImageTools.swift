@@ -26,4 +26,9 @@ public class AHImageTools: UIImage {
         let bundle = AHTools.findSourceBundle()
         return UIImage(named: imageName, in: bundle, compatibleWith: nil) ?? UIImage()
     }
+    internal class func readImage(imageName: String, tintColor: UIColor) -> UIImage {
+        let bundle = AHTools.findSourceBundle()
+        let img = UIImage(named: imageName, in: bundle, compatibleWith: nil) ?? UIImage()
+        return img.withTintColor(tintColor)
+    }
 }
