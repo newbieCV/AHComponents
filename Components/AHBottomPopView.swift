@@ -74,7 +74,8 @@ extension AHBottomPopView {
             startFrame = self.frame
         } else if (panGes.state == .ended || panGes.state == .cancelled) {
             pullUpView(offsetYHeight: startPoint.y - point.y)
-        } else if (self.frame.origin.y + point.y >= kScreen.height - self.contentHeight) {
+        } else if (startFrame.origin.y + point.y >= kScreen.height - self.contentHeight
+                   && startFrame.origin.y + point.y <= kScreen.height - self.normalHeight) {
             let offsetYHeight = startFrame.origin.y - startPoint.y + point.y
             self.frame = CGRect(origin: CGPoint(x: startFrame.origin.x, y: offsetYHeight),
                                 size: CGSizeMake(kScreen.width, self.contentHeight))
